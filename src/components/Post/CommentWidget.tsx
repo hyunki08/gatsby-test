@@ -2,7 +2,7 @@ import React, { createRef, useEffect } from 'react';
 import styled from '@emotion/styled';
 
 const src = 'https://utteranc.es/client.js';
-const repo = 'hyunki08/hyunki08.gatsby-test.github.io';
+const repo = 'hyunki08/gatsby-test';
 
 type UttrancesAttributesType = {
   src: string;
