@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://hyunki08.gatsby-test.github.io/sitemap/sitemap-index.xml
+Host: https://hyunki08.gatsby-test.github.io
