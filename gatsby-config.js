@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: "/gatsby-test",
   siteMetadata: {
     title: `현기의 개발 블로그`,
     description: `자라나는 개발자 이현기의 개발 블로그 입니다.`,
     author: `hyunki08`,
-    siteUrl: 'https://hyunki08.github.io/gatsby-test'
+    siteUrl: 'https://hyunki08.github.io/gatsby-test/'
   },
   plugins: [
     {
@@ -81,7 +82,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://hyunki08.github.io/gatsby-test',
+        siteUrl: 'https://hyunki08.github.io/gatsby-test/',
         stripQueryString: true,
       },
     },
